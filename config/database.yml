@@ -82,6 +82,6 @@ test:
 production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
-  database: render_demo
+  database: render_demo_production
   username: render_demo
   password: <%= ENV["RENDER_DEMO_DATABASE_PASSWORD"] %>
