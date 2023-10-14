@@ -1,4 +1,4 @@
-atabases:
+databases:
   - name: render_demo
     databaseName: render_demo
     user: render_demo
